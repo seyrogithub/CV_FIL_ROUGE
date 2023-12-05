@@ -1,0 +1,20 @@
+footer {
+    background: #060606d5;
+    background-size: 200px; 
+    color: #fff;
+    height: 3rem;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer i {
+    position: relative;
+    top: 0.5rem;
+}
+
+footer i:hover {
+    transform: scale(150%);
+    transition: 500ms;
+    color : yellow;
+}

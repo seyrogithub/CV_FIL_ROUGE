@@ -1,0 +1,133 @@
+img {
+    width: 12%;
+    border-radius: 100%;
+}
+
+#image_nom {
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/30/11/52/tree-5112536_1280.jpg");
+    width: 100%;
+    height: 45rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    background-image: url("https://cdn.pixabay.com/photo/2018/12/16/14/31/bordeaux-3878564_1280.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image_nom img{
+    position: relative;
+    top: 100px;
+    }
+    
+ #image_nom h1{
+        position: relative;
+        top: 100px;
+  }
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 125px;
+    gap: 3rem;
+    font-size: 24px;
+}
+
+#logo a i:hover{
+    transform: scale(150%);    
+    color: #000;
+    transition: 500ms;
+}
+
+#texte_accueil {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+}
+
+#texte_accueil h1{
+    display: flex;
+    text-align: center;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-bottom: black solid 3px;
+}
+
+
+#texte_education {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+}
+
+#education {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-bottom: black solid 3px;
+}   
+
+#partie_education {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#texte_experience {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    line-height: 2rem;
+}
+
+#texte_experience h3 {
+    line-height: normal;
+}
+
+#texte_experience h1 {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-bottom: black solid 3px;
+}
+
+#texte_informations {
+    background-color: #fff;
+    width: 50%;
+    line-height: 2rem;
+}
+
+#partie_informations {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#texte_informations h3 {
+    line-height: normal;
+}
+
+#texte_informations h1 {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-bottom: black solid 3px;
+}
+
+.texte {
+    padding: 2rem;
+}
+

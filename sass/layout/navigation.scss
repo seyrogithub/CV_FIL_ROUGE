@@ -1,0 +1,15 @@
+
+header nav{
+    display: flex;
+    align-items: center;
+    grid-row: auto;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    top : 10px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
